@@ -25,27 +25,8 @@ import math
 w= int(input("Width of multiplication table: "))
 h= int(input("Height of multiplication table: "))
 
-if w== 1:
-    for i in range(1, h+1):
-        print(i)
-elif w== 2:
-    for i in range(1, h+1):
-        print(i)
-    for i in range(1, h+1):
-        print(i*2)
-elif w== 3:
-    for i in range(1, h+1):
-        print(i)
-    for i in range(1, h+1):
-        print(i*2)
-    for i in range(1, h+1):
-        print(i*3)
-elif w==4:
-    for i in range(1, h+1):
-        print(i)
-    for i in range(1, h+1):
-        print(i*2)
-    for i in range(1, h+1):
-        print(i*3)
-    for i in range(1, h+1):
-        print(i*4)
+for i in range(1):
+    for j in range(1, h+1):
+        print(w*1, w*2, w*3, w*4, w*5, w*6, w*7, w*8, w*9, w*9, w*10, )
+        
+        
