@@ -1,6 +1,6 @@
 """
 multiplication-table.py
-Author: <your name here>
+Author: Robbie
 Credit: <list sources used, if any>
 Assignment:
 
@@ -21,3 +21,31 @@ Height of multiplication table: 8
   7  14  21  28  35  42  49  56  63  70
   8  16  24  32  40  48  56  64  72  80
 """
+import math
+w= int(input("Width of multiplication table: "))
+h= int(input("Height of multiplication table: "))
+
+if w== 1:
+    for i in range(1, h+1):
+        print(i)
+elif w== 2:
+    for i in range(1, h+1):
+        print(i)
+    for i in range(1, h+1):
+        print(i*2)
+elif w== 3:
+    for i in range(1, h+1):
+        print(i)
+    for i in range(1, h+1):
+        print(i*2)
+    for i in range(1, h+1):
+        print(i*3)
+elif w==4:
+    for i in range(1, h+1):
+        print(i)
+    for i in range(1, h+1):
+        print(i*2)
+    for i in range(1, h+1):
+        print(i*3)
+    for i in range(1, h+1):
+        print(i*4)
