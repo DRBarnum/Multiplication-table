@@ -1,7 +1,7 @@
 """
 multiplication-table.py
 Author: Robbie
-Credit: <list sources used, if any>
+Credit: Mr. Dennison and Matt
 Assignment:
 
 Write and submit a Python program that prints a multiplication table. The user 
@@ -24,9 +24,7 @@ Height of multiplication table: 8
 import math
 w= int(input("Width of multiplication table: "))
 h= int(input("Height of multiplication table: "))
-
-for i in range(1):
-    for j in range(1, h+1):
-        print(w*1, w*2, w*3, w*4, w*5, w*6, w*7, w*8, w*9, w*9, w*10, )
-        
-        
+for j in range(1, h+1):
+    for i in range(1, w+1):
+        print(j*i, end= " ")
+    print()
